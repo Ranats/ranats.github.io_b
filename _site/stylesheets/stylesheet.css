@@ -119,6 +119,9 @@ a {
 
 a:hover, a:focus {color: #4874e9;}
 
+header a {
+  color: #F2F2F2;
+}
 footer a {
   color: #F2F2F2;
   text-decoration: underline;

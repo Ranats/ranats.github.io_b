@@ -59,7 +59,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
+  margin: 0px 0;
   font-weight: 700;
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
@@ -72,9 +72,8 @@ h1 {
 }
 
 h2 {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
 h3 {
@@ -103,7 +102,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #3c3f41;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -118,8 +117,11 @@ a {
   -ms-transition: text-shadow 0.5s ease;
 }
 
-a:hover, a:focus {text-decoration: underline;}
+a:hover, a:focus {color: #4874e9;}
 
+header a {
+  color: #F2F2F2;
+}
 footer a {
   color: #F2F2F2;
   text-decoration: underline;
